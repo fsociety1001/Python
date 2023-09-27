@@ -12,8 +12,8 @@ def cifrarCesar(texto, chave):
 def decifrarCesar(texto, chave):
     return cifrarCesar(texto, -chave)
 
-mensagem_original = "Ola, Mundo!"
-deslocamento = -1
+mensagem_original = "Olá Mundo!" #pode ser inserida qualquer palavra/frase
+deslocamento = 2 #de -26 até 26
 
 mensagem_cifrada = cifrarCesar(mensagem_original, deslocamento)
 mensagem_decifrada = decifrarCesar(mensagem_cifrada, deslocamento)
